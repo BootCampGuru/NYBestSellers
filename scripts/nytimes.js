@@ -17,7 +17,7 @@ $(document).ready(function(){
             //show it in the table
             for (var i = 0; i < data.results.length; i++) {
 
-                $('#table tbody').append('<tr><td>' + data.results[i].book_title + '</td><td>' + data.results[i].book_author + '</td><td><img height="200px" src="../images/davinci.jpg" /></td></tr>');
+                $('#table tbody').append('<tr><td>' + data.results[i].book_title + '</td><td>' + data.results[i].book_author + '</td><td><img height="50px" src="../NYBestSellers/images/davinci.jpg" /></td></tr>');
             }
 
           });
