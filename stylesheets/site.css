@@ -1,0 +1,56 @@
+h1{
+    color:brown;
+    
+}
+
+p{
+    color: purple;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+table{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    border-style: solid;
+    border-color:gray;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+table td {
+    vertical-align: top;
+}
+
+label{
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+header {
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    padding: 10px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+  }
+
+footer {
+    position: fixed;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background: #1abc9c;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+  }
